@@ -17,18 +17,25 @@ module.exports = {
         egDark: {
           dark: "#010101",
           light: "#828282",
-          DEFAULT: "#3C3B3B",
+          DEFAULT: "#3C3B3B"
         },
         egPurple: {
           dark: "#631A61",
           light: "#E88FE5",
-          DEFAULT: "#A834A5",
+          DEFAULT: "#A834A5"
         },
         egLavender: {
           dark: "#8C52FF",
           light: "#BC9AFF",
           DEFAULT: "#9D748E"
         }
+      },
+      fontFamily: {
+        brand: ["WorkSans", "sans-serif"]
+      },
+      fontWeight: {
+        regular: "normal",
+        bold: "bold"
       }
     },
   },
